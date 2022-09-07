@@ -32,8 +32,8 @@ search.addWidgets([
     templates: {
       item: `
         <div>
-           <div class="case">
-             {{#helpers.highlight}}{ "attribute": "Case " }{{/helpers.highlight}}
+          <div class="case">
+            {{#helpers.highlight}}{ "attribute": "Case" }{{/helpers.highlight}}
           </div>
           <div class="code"><b>Surgeon:</b>
             {{#helpers.highlight}}{ "attribute": "Surgeon" }{{/helpers.highlight}}
